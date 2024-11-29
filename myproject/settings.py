@@ -29,6 +29,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','required-tamiko-bixhinge-7b5fbcba.koyeb.app']
 
+# Trusted origins for CSRF
+CSRF_TRUSTED_ORIGINS = [
+    'https://required-tamiko-bixhinge-7b5fbcba.koyeb.app',
+]
 
 # Application definition
 
