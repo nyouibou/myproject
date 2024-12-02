@@ -28,7 +28,7 @@ ALLOWED_HOSTS = ['*']
 
 # Trusted origins for CSRF
 CSRF_TRUSTED_ORIGINS = [
-    'https://required-tamiko-bixhinge-7b5fbcba.koyeb.app',
+    'https://myproject-production-7cb9.up.railway.app',
 ]
 
 # Application definition
